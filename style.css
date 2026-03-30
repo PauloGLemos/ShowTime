@@ -22,6 +22,10 @@ img{
   --bs-gutter-x: 0;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 .shows-scroll {
   gap: 15px;
   overflow-x: auto;
