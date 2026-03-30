@@ -1,0 +1,57 @@
+body{
+  background-color: white;
+}
+
+h5{
+  color: black;
+}
+
+p{
+  color: black;
+}
+
+img{
+  opacity: 50%;
+}
+
+.publicidade{
+  margin: 20px !important;
+}
+
+.row{
+  --bs-gutter-x: 0;
+}
+
+.shows-scroll {
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.show-card {
+  position: relative;
+  width: 320px;
+  height: 180px; /* proporção 16:9 */
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* imagem */
+.show-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* texto em cima da imagem */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 6px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
