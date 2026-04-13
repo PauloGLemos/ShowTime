@@ -1,17 +1,31 @@
 body{
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h5{
-  color: black;
 }
 
 p{
-  color: black;
 }
 
 img{
-  opacity: 50%;
+  opacity: 80%;
+}
+
+.carousel-item{
+background-color: #202124 !important
+}
+
+.navbar{
+  background-color: #202124 !important;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+
+
+.nav-link{
+    color: white !important;
 }
 
 .publicidade{
@@ -26,6 +40,11 @@ img{
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+
+.carousel{
+padding-top: 80px;
+}
+
 .shows-scroll {
   gap: 15px;
   overflow-x: auto;
