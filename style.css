@@ -10,7 +10,16 @@ p{
 }
 
 img{
-  opacity: 80%;
+  opacity: 90%;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.sem-borda {
+  border: none !important;
 }
 
 .carousel-item{
@@ -26,6 +35,10 @@ font-weight: 500;
 
 .nav-link{
     color: white !important;
+}
+
+.navbar-toggler {
+  background-color:white !important;
 }
 
 .publicidade{
