@@ -13,10 +13,6 @@ img{
   opacity: 90%;
 }
 
-.center{
-  justify-content: center;
-  align-items: center;
-}
 
 .sem-borda {
   border: none !important;
