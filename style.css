@@ -13,6 +13,19 @@ img{
   opacity: 90%;
 }
 
+.footers {
+  background-color: #202124;
+}
+
+footer h5 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #ccc;
+}
 
 .sem-borda {
   border: none !important;
