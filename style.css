@@ -3,18 +3,36 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-h5{
-}
-
-p{
-}
-
 img{
   opacity: 90%;
 }
 
 .footers {
   background-color: #202124;
+}
+
+.color1{
+  background-color: #593F73;
+  border-radius: 10px;
+  color: white;
+}
+
+.color2{
+  background-color: #4FA637;
+  border-radius: 10px;
+  color: white;
+}
+
+.color3{
+  background-color: #8C0B52;
+  border-radius: 10px;
+  color: white;
+}
+
+.color4{
+  background-color: red;
+  border-radius: 10px;
+  color: white;
 }
 
 footer h5 {
@@ -31,23 +49,67 @@ footer p {
   border: none !important;
 }
 
+@media (min-width: 1024px){
+  .carousel-item {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    padding: 20px;
+        margin-top: 30px;
+  }
+}
+
+.card1{
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+
 .carousel-item{
-background-color: #202124 !important
+    background-color: rgb(32, 33, 36)  !important;
+}
+.carousel-control-next-icon{
+}
+
+.carousel-control-prev-icon{
+}
+
+.img1{
+  border-radius: 10px 10px 0px 0px
 }
 
 .navbar{
   background-color: #202124 !important;
   font-family: 'Montserrat', sans-serif;
-font-weight: 500;
+  font-size: 14px;
+  padding: 0px;
 }
 
 
 .nav-link{
     color: white !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:hover{
+    color: red !important;
+}
+
+h1 {
+  transition: all 0.5s ease;
+}
+
+h1:hover{
+  font-weight: bolder;
+  font-size: 45px;
 }
 
 .navbar-toggler {
   background-color:white !important;
+  padding: 4px 8px;
 }
 
 .publicidade{
@@ -99,4 +161,18 @@ padding-top: 80px;
   color: white;
   font-size: 12px;
   text-align: center;
+}
+
+.scene {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transform-style: preserve-3d;
 }
