@@ -5,6 +5,7 @@ body{
 
 img{
   opacity: 90%;
+  border-radius: 10px;
 }
 
 .footers {
@@ -13,25 +14,25 @@ img{
 
 .color1{
   background-color: #666666;
-  border-radius: 10px;
+  border-radius: 0px;
   color: white;
 }
 
 .color2{
   background-color: #4c4c4c;
-  border-radius: 10px;
+  border-radius: 0px;
   color: white;
 }
 
 .color3{
   background-color: #333333;
-  border-radius: 10px;
+  border-radius: 0px;
   color: white;
 }
 
 .color4{
   background-color: #191919;
-  border-radius: 10px;
+  border-radius: 0px;
   color: white;
 }
 
@@ -47,6 +48,10 @@ font-weight: bolder;
 
 .card-title{
 margin: 0px;
+}
+
+.card-body{
+  padding: 60px;
 }
 
 footer h5 {
@@ -127,8 +132,13 @@ h1:hover{
 }
 
 .publicidade{
-  margin: 20px !important;
+ padding: 0px 60px 0px 60px;
 }
+
+.publicidade2{
+ padding: 40px;
+}
+
 
 .row{
   --bs-gutter-x: 0;
