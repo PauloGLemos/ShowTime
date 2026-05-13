@@ -51,7 +51,7 @@ margin: 0px;
 }
 
 .card-body{
-  padding: 60px;
+  padding: 30px;
 }
 
 footer h5 {
@@ -70,7 +70,7 @@ footer p {
 
 @media (min-width: 1024px){
   .carousel-item {
-    padding: 60px;
+    padding: 30px;
   }
 }
 
@@ -103,7 +103,6 @@ footer p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   padding: 0px;
-height: 100px;
 }
 
 
@@ -132,11 +131,11 @@ h1:hover{
 }
 
 .publicidade{
- padding: 0px 60px 0px 60px;
+ padding: 0px 30px 0px 30px;
 }
 
 .publicidade2{
- padding: 40px;
+ padding: 10px;
 }
 
 
