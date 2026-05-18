@@ -8,6 +8,10 @@ img{
   border-radius: 10px;
 }
 
+.padding{
+  padding-bottom: 100px;
+}
+
 .footers {
   background-color: #202124;
 }
