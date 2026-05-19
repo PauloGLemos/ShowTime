@@ -58,6 +58,16 @@ margin: 0px;
   padding: 30px;
 }
 
+.card-body1{
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-body1 {
+    padding: 0px;
+  }
+}
+
 footer h5 {
   font-size: 14px;
   letter-spacing: 1px;
